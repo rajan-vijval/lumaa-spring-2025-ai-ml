@@ -1,7 +1,0 @@
-# Environment
-/.env
-/env/
-
-# Mac generated files
-.DS_Store
-**/.DS_Store
