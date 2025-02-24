@@ -4,9 +4,9 @@
 
 This project implements a  recommendation system using TF-IDF Vectorization and Cosine Similarity. It provides users with the top 5 movie recommendations based  on the similarity of movie plot summaries to a given query.
 
-The dataset utilized for this project is the CMU Plot Summaries dataset, which contains 42,306 movie plot summaries extracted from Wikipedia and metadata extracted from Freebase.
+The dataset utilized for this project is the CMU Plot Summaries dataset, which contains 42,306 movie plot summaries extracted from Wikipedia and metadata extracted from Freebase, downloaded from [Movie Personas Dataset](http://www.cs.cmu.edu/~ark/personas/).
 
-## Solution Approach
+## Solution
 
 ### Data Loading and Preprocessing:
 
@@ -26,6 +26,7 @@ Ranked movies by cosine similarity to user query.
 
 Returned top 5 movies most relevant to the user's query.
 
+## Other
 ### Files
 
 Lumaa Solution.ipynb: Full implementation with user input in last cell
